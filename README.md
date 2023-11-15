@@ -10,6 +10,12 @@
 
 #### Diego's Connectivity Graph
 
+<img src='Graphs_Connected_14.png' alt="Juan's Graph">
+
 #### Fer's Connectivity Graph
 
+<img src='Graphs_Connected_16.png' alt="Juan's Graph">
+
 #### Jesus's Connectivity Graph
+
+<img src='Graphs_Connected_15.png' alt="Juan's Graph">
