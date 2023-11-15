@@ -19,3 +19,7 @@
 #### Jesus's Connectivity Graph
 
 <img src='Graphs_Connected_15.png' alt="Juan's Graph">
+
+#### General S0A Graph Connected
+
+<img src='Graphs_Connected_0A.png' alt="Juan's Graph">
