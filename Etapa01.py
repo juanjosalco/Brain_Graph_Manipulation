@@ -1,10 +1,18 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+
+# Get the current script's directory
+script_dir = os.path.dirname(os.path.realpath(__file__))
+
+# Specify the folder containing the text files
+folder_name = 'S13'
 
 # Load connectivity matrices from text files
-matrix1 = np.loadtxt('Lectura_13.txt', dtype=int)
-matrix2 = np.loadtxt('Memoria_13.txt', dtype=int)
-matrix3 = np.loadtxt('Operaciones_13.txt', dtype=int)
+matrix1 = np.loadtxt(os.path.join(script_dir, folder_name, 'Lectura.txt'), dtype=int)
+matrix2 = np.loadtxt(os.path.join(script_dir, folder_name, 'Memoria.txt'), dtype=int)
+matrix3 = np.loadtxt(os.path.join(script_dir, folder_name, 'Operaciones.txt'), dtype=int)
+
 
 # Assuming matrices represent connections between channels
 connectivity_matrices = [matrix1, matrix2, matrix3]
