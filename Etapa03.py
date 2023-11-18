@@ -222,6 +222,7 @@ class WeightedGraph:
 
         # Array that will store the resulting MST
         result = []
+        total_weight = 0
 
         # Sort all the edges from result[] in non-decreasing order
         edges = self.edges()
@@ -248,6 +249,7 @@ class WeightedGraph:
             j = self.vertices().index(min_edge[1])
             if find(i) != find(j):
                 result.append(min_edge)
+                total_weight += min_edge[2]
                 union(i, j)
                 edge_count += 1
             else:
@@ -255,6 +257,7 @@ class WeightedGraph:
         print("Minimum Spanning Tree: ")
         for edge in result:
             print(edge[0], " - ", edge[1], " : ", edge[2])
+        print("Total weight: ", total_weight)
         return result
 
                 
@@ -295,7 +298,7 @@ def calc_distance(p1, p2):
 script_dir = os.path.dirname(os.path.realpath(__file__))
 
 # Specify the folder containing the text files
-folder_name = 'S14'
+folder_name = 'S16'
 
 # Load connectivity matrices from text files
 matrix1 = np.loadtxt(os.path.join(script_dir, folder_name, 'Lectura.txt'), dtype=int)
