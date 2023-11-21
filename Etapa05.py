@@ -89,11 +89,6 @@ for idx, matrix in enumerate(connectivity_matrices, start=1):
     circle = plt.Circle((0, 0), 1, color='r', alpha=0.85, fill=False, linewidth=2)
     plt.gca().add_patch(circle)
 
-    # show degree in each node
-    for i in range(len(channels)):
-        plt.text(points2D[i, 0] - 0.15, points2D[i, 1] + 0.025, degree[i], color='purple')
-    
-
     plt.xlim(-1.1, 1.1)
     plt.ylim(-1.8, 1.8)
     mng = plt.get_current_fig_manager()
