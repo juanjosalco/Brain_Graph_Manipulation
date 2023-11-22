@@ -13,7 +13,6 @@ matrix1 = np.loadtxt(os.path.join(script_dir, folder_name, 'Lectura.txt'), dtype
 matrix2 = np.loadtxt(os.path.join(script_dir, folder_name, 'Memoria.txt'), dtype=int)
 matrix3 = np.loadtxt(os.path.join(script_dir, folder_name, 'Operaciones.txt'), dtype=int)
 
-
 # Assuming matrices represent connections between channels
 connectivity_matrices = [matrix1, matrix2, matrix3]
 
