@@ -173,5 +173,13 @@ Como lo vimos a lo largo de estas 5 semanas, creo que es evidente que cualquier 
 
 <br>
 
+### Diego Luna
+
+A través de los aprendizajes obtenidos en el curso pudimos aplicar ciertos tipos de análisis que nos permiten observar la información desde otro ángulo. Esto es posible gracias a la representación gráfica obtenida en base a la conectividad de los grafos, permitiéndonos aplicar algoritmos como el min spanning tree y el convex-hull, demostrando de una manera mucho más profunda las relaciones que hay entre las áreas del cerebro para el caso de nuestra situación problema. EL uso de diagramas de Voronoi también revela algunos patrones entre los sujetos, enriqueciendo los resultados obtenidos por el resto de los métodos.
+Realmente las estructuras basadas en nodos como los grafos nos ayudan a organizar la información de una manera muy sencilla que es fácilmente procesada por un algoritmo computacional para obtener los resultados esperados de una forma óptima e ideal.
+
+<br>
+
 ### Fernando Gómez
+
 Considero que los grafos se encuentran dentro de las estructuras más versátiles y con mayores usos en una gran variedad de campos. Si consigues representar algún sistema que se tenga por medio de un grafo, por consecuencia el análisis de dicho sistema puede volverse mucho más sencillo debido a la facilidad con la que un grafo puede manipularse, y obtener información relevante que quizá no es evidente a primera vista. Toda esta información recabada al final puede ser utilizada para obtener nuevas conclusiones sobre nuestro sistema, o para realizar planes de accion y de optimización hacia el mismo. Y es gracias a los algoritmos vistos a lo largo del semestre que se pueden llegar a estas conclusiones. De ahi la utilidad y la importancia de conocer no solo lo que son los grafos, sino que también saber utilizarlos y manipularnos a nuestro favor.
