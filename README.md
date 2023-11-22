@@ -118,7 +118,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 
 
 # Caminos encontrados General:
-<img src='Weights0A.png' alt="General Graph" width="100%">
+<img src='GenE2.png' alt="General Graph" width="100%">
 <img src='paths0A_1.png' alt="General's Paths" width="80%">
 <img src='paths0A_2.png' alt="General's Paths" width="80%">
 <img src='paths0A_3.png' alt="General's Paths" width="80%">
