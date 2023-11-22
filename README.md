@@ -18,8 +18,8 @@ En esta situación problema nosotros seremos capaces de responder a las siguient
 
 <br>
 
-<img src='eeg.png' width='35%' alt='EEG'>
-<img src='connectivity.png' width='60%' alt='Conectividad'>
+
+| ![EEG](eeg.png) | ![Conectividad](connectivity.png) |
 
 <br>
 
