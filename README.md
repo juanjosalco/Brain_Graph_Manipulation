@@ -156,6 +156,7 @@ En esta etapa, se realiza la búsqueda de árboles de expansión mínima utiliza
 
 En esta etapa, se lleva a cabo la búsqueda de los cascos convexos para los vértices de cada árbol de expansión mínima
 
+
 ## Etapa 05 - Representación del grado de cada arista con diagramas de Voronoi
 
 En esta etapa, se lleva a cabo un análisis de conectividad funcional utilizando diagramas de Voronoi.
@@ -164,6 +165,11 @@ En esta etapa, se lleva a cabo un análisis de conectividad funcional utilizando
 - Construcción de Diagramas de Voronoi
 - Coloreado de Regiones en los Diagramas
 - Dibujo de un Círculo Representando la Cabeza
+
+¿Encuentras informativo los diagramas de Voronoi en este caso?
+Si, aunque realmente el caso de uso puede resultar algo específico, el diagrama de Voronoi nos permite visualizar el funcionamiento de las conexiones neuronales que existen entre las distintas partes del cerebro. Al analizar la actividad o la falta de la misma en cada área podemos obtener datos respecto al estado de esa zona, ya sea que existan algún tipo de daño o se tenga alguna neurodivergencia que afecte a nivel físico.
+¿Los diagramas te ayudan a hacer comparaciones entre tareas y entre sujetos?
+Si, nos permite identificar patrones y variaciones en la conectividad que se tiene entre áreas al realizar ciertas tareas. Un ejemplo muy claro de esto es el aumento de actividad en el lóbulo temporal, una parte ampliamente relacionada con el procesamiento del lenguaje, en la tarea de lectura.
 
 ## Conclusiones individuales
 
