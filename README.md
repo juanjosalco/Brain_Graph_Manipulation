@@ -77,181 +77,275 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 - Búsqueda de Caminos para Grafo de 32 Electrodos
 - Método de Floyd para Distancias Mínimas
 
-# Caminos encontrados:
+### Caminos encontrados Juan:
 <img src='Weights13.png' alt="Juan's Graph">
 
 Lecture Graph
+<br>
 ------------Search with BFS--------
+<br>
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 None
+<br>
 Path from PO7 to C4:
 None
+<br>
 Path from PO8 to Pz:
 None
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'Cz', 'C4'], 'Cost': '1.56'}
-
+<br>
 ------------Search with DFS--------
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 None
+<br>
 Path from PO7 to C4:
 None
+<br>
 Path from PO8 to Pz:
 None
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'Cz', 'Pz', 'C4'], 'Cost': '2.58'}
+<br>
 
 ------------Search with UCS--------
+<br>
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 None
+<br>
 Path from PO7 to C4:
 None
+<br>
 Path from PO8 to Pz:
 None
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'Cz', 'C4'], 'Cost': '1.56'}
-
+<br>
 ------------Floyd Marshal--------
+<br>
 Length of shortest paths
+<br>
 [[-1.   -1.   -1.   -1.   -1.   -1.   -1.   -1.  ]
+<br>
  [-1.    1.56  0.78  1.56  1.56 -1.   -1.   -1.  ]
+ <br>
  [-1.    0.78  1.56  0.78  0.78 -1.   -1.   -1.  ]
+ <br>
  [-1.    1.56  0.78  1.56  1.02 -1.   -1.   -1.  ]
+ <br>
  [-1.    1.56  0.78  1.02  1.56 -1.   -1.   -1.  ]
+ <br>
  [-1.   -1.   -1.   -1.   -1.    1.24  0.62 -1.  ]
+ <br>
  [-1.   -1.   -1.   -1.   -1.    0.62  1.24 -1.  ]
+ <br>
  [-1.   -1.   -1.   -1.   -1.   -1.   -1.   -1.  ]]
+ <br>
 
  Memory Graph
+ <br>
 ------------Search with BFS--------
+<br>
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 {'Path': ['C3', 'Pz', 'Oz'], 'Cost': '1.80'}
+<br>
 Path from PO7 to C4:
 {'Path': ['PO7', 'Oz', 'Pz', 'C3', 'Cz', 'C4'], 'Cost': '3.98'}
+<br>
 Path from PO8 to Pz:
 {'Path': ['PO8', 'Oz', 'Pz'], 'Cost': '1.40'}
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'Cz', 'C4'], 'Cost': '1.56'}
+<br>
 
 ------------Search with DFS--------
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 {'Path': ['C3', 'Pz', 'Oz'], 'Cost': '1.80'}
+<br>
 Path from PO7 to C4:
 {'Path': ['PO7', 'Oz', 'Pz', 'C3', 'Cz', 'C4'], 'Cost': '3.98'}
+<br>
 Path from PO8 to Pz:
 {'Path': ['PO8', 'Oz', 'Pz'], 'Cost': '1.40'}
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'Cz', 'C4'], 'Cost': '1.56'}
+<br>
 
 ------------Search with UCS--------
+<br>
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 {'Path': ['C3', 'Pz', 'Oz'], 'Cost': '1.80'}
+<br>
 Path from PO7 to C4:
 {'Path': ['PO7', 'Oz', 'Pz', 'C3', 'Cz', 'C4'], 'Cost': '3.98'}
+<br>
 Path from PO8 to Pz:
 {'Path': ['PO8', 'Oz', 'Pz'], 'Cost': '1.40'}
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'Cz', 'C4'], 'Cost': '1.56'}
+<br>
 
 ------------Floyd Marshal--------
 Length of shortest paths
+<br>
 [[-1.   -1.   -1.   -1.   -1.   -1.   -1.   -1.  ]
+<br>
  [-1.    1.56  0.78  1.56  1.02  2.42  1.8   2.42]
+ <br>
  [-1.    0.78  1.56  0.78  1.8   3.2   2.58  3.2 ]
+ <br>
  [-1.    1.56  0.78  1.56  2.58  3.98  3.36  3.98]
+ <br>
  [-1.    1.02  1.8   2.58  1.56  1.4   0.78  1.4 ]
+ <br>
  [-1.    2.42  3.2   3.98  1.4   1.24  0.62  1.24]
+ <br>
  [-1.    1.8   2.58  3.36  0.78  0.62  1.24  0.62]
+ <br>
  [-1.    2.42  3.2   3.98  1.4   1.24  0.62  1.24]]
+ <br>
 
 
 Operations Graph
+<br>
 ------------Search with BFS--------
+<br>
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 {'Path': ['C3', 'Pz', 'Oz'], 'Cost': '1.80'}
+<br>
 Path from PO7 to C4:
 {'Path': ['PO7', 'Pz', 'C4'], 'Cost': '1.96'}
+<br>
 Path from PO8 to Pz:
 {'Path': ['PO8', 'Oz', 'Pz'], 'Cost': '1.40'}
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'C4'], 'Cost': '1.44'}
+<br>
 
 ------------Search with DFS--------
+<br>
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 {'Path': ['C3', 'Pz', 'Oz'], 'Cost': '1.80'}
+<br>
 Path from PO7 to C4:
 {'Path': ['PO7', 'Oz', 'Pz', 'C4'], 'Cost': '2.42'}
+<br>
 Path from PO8 to Pz:
 {'Path': ['PO8', 'Oz', 'PO7', 'Pz'], 'Cost': '2.18'}
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'Pz', 'C4'], 'Cost': '2.03'}
+<br>
 
 ------------Search with UCS--------
+<br>
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 {'Path': ['C3', 'Pz', 'Oz'], 'Cost': '1.80'}
+<br>
 Path from PO7 to C4:
 {'Path': ['PO7', 'Pz', 'C4'], 'Cost': '1.96'}
+<br>
 Path from PO8 to Pz:
 {'Path': ['PO8', 'Oz', 'Pz'], 'Cost': '1.40'}
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'C4'], 'Cost': '1.44'}
+<br>
 
 ------------Floyd Marshal--------
+<br>
 Length of shortest paths
+<br>
 [[-1.   -1.   -1.   -1.   -1.   -1.   -1.   -1.  ]
+<br>
  [-1.    1.56  0.78  1.44  1.02  1.96  1.8   2.42]
+ <br>
  [-1.    0.78  1.56  0.78  0.78  1.72  1.56  2.18]
+ <br>
  [-1.    1.44  0.78  1.56  1.02  1.96  1.8   2.42]
+ <br>
  [-1.    1.02  0.78  1.02  1.56  0.94  0.78  1.4 ]
+ <br>
  [-1.    1.96  1.72  1.96  0.94  1.24  0.62  1.24]
+ <br>
  [-1.    1.8   1.56  1.8   0.78  0.62  1.24  0.62]
+ <br>
  [-1.    2.42  2.18  2.42  1.4   1.24  0.62  1.24]]
+<br>
 
 # Caminos encontrados Diego:
 <img src='Weights14.png' alt="Diego's Graph">
 
 Lecture Graph
+<br>
 ------------Search with BFS--------
+<br>
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 None
+<br>
 Path from PO7 to C4:
 None
+<br>
 Path from PO8 to Pz:
 {'Path': ['PO8', 'Oz', 'Pz'], 'Cost': '1.40'}
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'Cz', 'C4'], 'Cost': '1.56'}
-
+<br>
 ------------Search with DFS--------
+<br>
 Path from Fz to PO8:
 None
+<br>
 Path from C3 to Oz:
 None
+<br>
 Path from PO7 to C4:
 None
+<br>
 Path from PO8 to Pz:
 {'Path': ['PO8', 'Oz', 'Pz'], 'Cost': '1.40'}
+<br>
 Path from C3 to C4:
 {'Path': ['C3', 'Cz', 'C4'], 'Cost': '1.56'}
+<br>
 
 ------------Search with UCS--------
 Path from Fz to PO8:
