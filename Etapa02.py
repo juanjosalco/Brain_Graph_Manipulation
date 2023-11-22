@@ -11,7 +11,7 @@ from queue import PriorityQueue
 script_dir = os.path.dirname(os.path.realpath(__file__))
 
 # Specify the folder containing the text files
-folder_name = 'S16'
+folder_name = 'S13'
 
 # Load connectivity matrices from text files
 matrix1 = np.loadtxt(os.path.join(script_dir, folder_name, 'Lectura.txt'), dtype=int)

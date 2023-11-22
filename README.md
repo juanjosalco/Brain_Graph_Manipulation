@@ -78,7 +78,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 - Método de Floyd para Distancias Mínimas
 
 ### Caminos encontrados Juan:
-<img src='Weights13.png' alt="Juan's Graph" width="80%">
+<img src='JuanE2.png' alt="Juan's Graph" width="100%">
 <img src='paths13_1.png' alt="Juan's Paths" width="80%">
 <img src='paths13_2.png' alt="Juan's Paths" width="80%">
 <img src='paths13_3.png' alt="Juan's Paths" width="80%">
@@ -88,7 +88,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 
 
 # Caminos encontrados Diego:
-<img src='Weights14.png' alt="Diego's Graph" width="80%">
+<img src='DiegoE2.png' alt="Diego's Graph" width="100%">
 <img src='paths14_1.png' alt="Diego's Paths" width="80%">
 <img src='paths14_2.png' alt="Diego's Paths" width="80%">
 <img src='paths14_3.png' alt="Diego's Paths" width="80%">
@@ -98,7 +98,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 
 
 # Caminos encontrados Jesús:
-<img src='Weights15.png' alt="Jesus's Graph" width="80%">
+<img src='ChuyE2.png' alt="Jesus's Graph" width="100%">
 <img src='paths15_1.png' alt="Jesus's Paths" width="80%">
 <img src='paths15_2.png' alt="Jesus's Paths" width="80%">
 <img src='paths15_3.png' alt="Jesus's Paths" width="80%">
@@ -108,7 +108,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 
 
 # Caminos encontrados Fer:
-<img src='Weights16.png' alt="Fer's Graph" width="80%">
+<img src='FerE2.png' alt="Fer's Graph" width="100%">
 <img src='paths16_1.png' alt="Fer's Paths" width="80%">
 <img src='paths16_2.png' alt="Fer's Paths" width="80%">
 <img src='paths16_3.png' alt="Fer's Paths" width="80%">
@@ -118,7 +118,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 
 
 # Caminos encontrados General:
-<img src='Weights0A.png' alt="General Graph" width="80%">
+<img src='Weights0A.png' alt="General Graph" width="100%">
 <img src='paths0A_1.png' alt="General's Paths" width="80%">
 <img src='paths0A_2.png' alt="General's Paths" width="80%">
 <img src='paths0A_3.png' alt="General's Paths" width="80%">
