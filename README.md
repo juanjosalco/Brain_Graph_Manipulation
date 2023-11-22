@@ -79,52 +79,52 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 
 ### Caminos encontrados Juan:
 <img src='Weights13.png' alt="Juan's Graph">
-<img src='paths13_1' alt="Juan's Paths">
-<img src='paths13_2' alt="Juan's Paths">
-<img src='paths13_3' alt="Juan's Paths">
-<img src='paths13_4' alt="Juan's Paths">
-<img src='paths13_5' alt="Juan's Paths">
-<img src='paths13_6' alt="Juan's Paths">
+<img src='paths13_1.png' alt="Juan's Paths">
+<img src='paths13_2.png' alt="Juan's Paths">
+<img src='paths13_3.png' alt="Juan's Paths">
+<img src='paths13_4.png' alt="Juan's Paths">
+<img src='paths13_5.png' alt="Juan's Paths">
+<img src='paths13_6.png' alt="Juan's Paths">
 
 
 # Caminos encontrados Diego:
 <img src='Weights14.png' alt="Diego's Graph">
-<img src='paths14_1' alt="Diego's Paths">
-<img src='paths14_2' alt="Diego's Paths">
-<img src='paths14_3' alt="Diego's Paths">
-<img src='paths14_4' alt="Diego's Paths">
-<img src='paths14_5' alt="Diego's Paths">
-<img src='paths14_6' alt="Diego's Paths">
+<img src='paths14_1.png' alt="Diego's Paths">
+<img src='paths14_2.png' alt="Diego's Paths">
+<img src='paths14_3.png' alt="Diego's Paths">
+<img src='paths14_4.png' alt="Diego's Paths">
+<img src='paths14_5.png' alt="Diego's Paths">
+<img src='paths14_6.png' alt="Diego's Paths">
 
 
 # Caminos encontrados Jesús:
 <img src='Weights15.png' alt="Jesus's Graph">
-<img src='paths15_1' alt="Jesus's Paths">
-<img src='paths15_2' alt="Jesus's Paths">
-<img src='paths15_3' alt="Jesus's Paths">
-<img src='paths15_4' alt="Jesus's Paths">
-<img src='paths15_5' alt="Jesus's Paths">
-<img src='paths15_6' alt="Jesus's Paths">
+<img src='paths15_1.png' alt="Jesus's Paths">
+<img src='paths15_2.png' alt="Jesus's Paths">
+<img src='paths15_3.png' alt="Jesus's Paths">
+<img src='paths15_4.png' alt="Jesus's Paths">
+<img src='paths15_5.png' alt="Jesus's Paths">
+<img src='paths15_6.png' alt="Jesus's Paths">
 
 
 # Caminos encontrados Fer:
 <img src='Weights16.png' alt="Fer's Graph">
-<img src='paths16_1' alt="Fer's Paths">
-<img src='paths16_2' alt="Fer's Paths">
-<img src='paths16_3' alt="Fer's Paths">
-<img src='paths16_4' alt="Fer's Paths">
-<img src='paths16_5' alt="Fer's Paths">
-<img src='paths16_6' alt="Fer's Paths">
+<img src='paths16_1.png' alt="Fer's Paths">
+<img src='paths16_2.png' alt="Fer's Paths">
+<img src='paths16_3.png' alt="Fer's Paths">
+<img src='paths16_4.png' alt="Fer's Paths">
+<img src='paths16_5.png' alt="Fer's Paths">
+<img src='paths16_6.png' alt="Fer's Paths">
 
 
 # Caminos encontrados General:
 <img src='Weights0A.png' alt="General Graph">
-<img src='paths0A_1' alt="General's Paths">
-<img src='paths0A_2' alt="General's Paths">
-<img src='paths0A_3' alt="General's Paths">
-<img src='paths0A_4' alt="General's Paths">
-<img src='paths0A_5' alt="General's Paths">
-<img src='paths0A_6' alt="General's Paths">
+<img src='paths0A_1.png' alt="General's Paths">
+<img src='paths0A_2.png' alt="General's Paths">
+<img src='paths0A_3.png' alt="General's Paths">
+<img src='paths0A_4.png' alt="General's Paths">
+<img src='paths0A_5.png' alt="General's Paths">
+<img src='paths0A_6.png' alt="General's Paths">
 
 
 # Ejemplos de rutas
