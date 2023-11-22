@@ -141,6 +141,15 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 
 ## Etapa 03 - Análisis de árboles de mínima expansión de los grafos de conectividad
 
+### ¿Qué utilidad ves en el uso de árboles de expansión mínima para representar los grafos de conectividad?
+- El uso de árboles de mínima expansión para representar grafos puede ser muy útil dentro de varios campos. Se pueden ver aplicados desde áreas como redes y enrutamiento (encontrar un árbol de expansión mínima 
+  dentro de las conexiones de una red para enviar paquetes rápidamente) hasta transporte (encontrar las rutas más corta entre dos ubicaciones para optimizar tiempo y recursos). En este caso aplicar un MST para    el grafo de conectividad cerebral puede ser útil para identificar las conexiones mas próximas entre electrodos y como es que se puede simplificar las conexiones.
+  
+### ¿Encuentras diferencias gráficas entre las tareas para cada miembro del equipo?
+- En las tareas de lectura, solamente un MST involucra el electrodo Fz, mientras que en otros casos no hay conexiones entre Pz y Oz, P8 y Oz y P7 Oz. Por su parte, la matriz de memoria es la que más similitudes 
+  presenta entre todos los sujetos, salvo por un par de conexiones como de Pz a C3 en lugar de Pz a Cz, o de Cz a Fz. Lo anterior sucede de la misma forma para el MST de operaciones 
+### ¿Ocurre lo mismo con el gráficos para los datos con 32 canales?
+- Al ser de 32 canales, este es el MST en el que se nota más la reducción de conexiones como resultado de la aplicación del algorimo de Kruskal
 En esta etapa, se realiza la búsqueda de árboles de expansión mínima utilizando los grafos de conectividad no ponderados.
 
 ## Etapa 04 - Cascos convexos de los vértices de los árboles de mínima expansión
@@ -161,3 +170,8 @@ En esta etapa, se lleva a cabo un análisis de conectividad funcional utilizando
 ### Juan Salazar
 
 Como lo vimos a lo largo de estas 5 semanas, creo que es evidente que cualquier cosa puede ser representada como un grafo, si nos ponemos a analizarlo, todas las personas y todo lo que existe en este mundo está cargado de diferentes tipos de información, la cual puede ser estudiada y analizada para obtener grandes resultados o descubrimientos. Los algoritmos que estudiamos nos ayudan a hacer posible el estudio de toda esta información de una manera eficiente tanto en capacidad de memoria como temporal.
+
+<br>
+
+### Fernando Gómez
+Yo creo que los grafos se encuentran dentro de las estructuras más versátiles y con mayores usos en una gran variedad de campos. Si consigues representar algún sistema que se tenga por medio de un grafo, por consecuencia el análisis de dicho sistema puede volverse mucho más sencillo debido a la facilidad con la que un grafo puede manipularse, y obtener información relevante que quizá no es evidente a primera vista. Toda esta información recabada al final puede ser utilizada para obtener nuevas conclusiones sobre nuestro sistema, o para realizar planes de accion y de optimización hacia el mismo. Y es gracias a los algoritmos vistos a lo largo del semestre que se pueden llegar a estas conclusiones. De ahi la utilidad y la importancia de conocer no solo lo que son los grafos, sino que también saber utilizarlos y manipularnos a nuestro favor.
