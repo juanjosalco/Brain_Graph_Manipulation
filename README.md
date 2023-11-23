@@ -215,19 +215,19 @@ En esta etapa, se lleva a cabo la búsqueda de los cascos convexos para los vér
 
 <img src='VN13.png'>
 
-### Cascos Convexos - Diego
+### Diagramas de Voronoi - Diego
 
 <img src='VN14.png'>
 
-### Cascos Convexos - Jesús
+### Diagramas de Voronoi - Jesús
 
 <img src='VN15.png'>
 
-### Cascos Convexos - Fer
+### Diagramas de Voronoi - Fer
 
 <img src='VN16.png'>
 
-### Cascos Convexos - General
+### Diagramas de Voronoi - General
 
 <img src='VNGEN.png'>
 
