@@ -18,8 +18,8 @@ En esta situación problema nosotros seremos capaces de responder a las siguient
 
 <br>
 
-<img src='eeg.png' width='35%' alt='EEG'>
-<img src='connectivity.png' width='60%' alt='Conectividad'>
+
+| ![EEG](eeg.png) | ![Conectividad](connectivity.png) |
 
 <br>
 
@@ -78,53 +78,53 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 - Método de Floyd para Distancias Mínimas
 
 ### Caminos encontrados Juan:
-<img src='Weights13.png' alt="Juan's Graph">
-<img src='paths13_1' alt="Juan's Paths">
-<img src='paths13_2' alt="Juan's Paths">
-<img src='paths13_3' alt="Juan's Paths">
-<img src='paths13_4' alt="Juan's Paths">
-<img src='paths13_5' alt="Juan's Paths">
-<img src='paths13_6' alt="Juan's Paths">
+<img src='JuanE2.png' alt="Juan's Graph" width="100%">
+<img src='paths13_1.png' alt="Juan's Paths" width="80%">
+<img src='paths13_2.png' alt="Juan's Paths" width="80%">
+<img src='paths13_3.png' alt="Juan's Paths" width="80%">
+<img src='paths13_4.png' alt="Juan's Paths" width="80%">
+<img src='paths13_5.png' alt="Juan's Paths" width="80%">
+<img src='paths13_6.png' alt="Juan's Paths" width="80%">
 
 
-### Caminos encontrados Diego:
-<img src='Weights14.png' alt="Diego's Graph">
-<img src='paths14_1' alt="Diego's Paths">
-<img src='paths14_2' alt="Diego's Paths">
-<img src='paths14_3' alt="Diego's Paths">
-<img src='paths14_4' alt="Diego's Paths">
-<img src='paths14_5' alt="Diego's Paths">
-<img src='paths14_6' alt="Diego's Paths">
+# Caminos encontrados Diego:
+<img src='DiegoE2.png' alt="Diego's Graph" width="100%">
+<img src='paths14_1.png' alt="Diego's Paths" width="80%">
+<img src='paths14_2.png' alt="Diego's Paths" width="80%">
+<img src='paths14_3.png' alt="Diego's Paths" width="80%">
+<img src='paths14_4.png' alt="Diego's Paths" width="80%">
+<img src='paths14_5.png' alt="Diego's Paths" width="80%">
+<img src='paths14_6.png' alt="Diego's Paths" width="80%">
 
 
-### Caminos encontrados Jesús:
-<img src='Weights15.png' alt="Jesus's Graph">
-<img src='paths15_1' alt="Jesus's Paths">
-<img src='paths15_2' alt="Jesus's Paths">
-<img src='paths15_3' alt="Jesus's Paths">
-<img src='paths15_4' alt="Jesus's Paths">
-<img src='paths15_5' alt="Jesus's Paths">
-<img src='paths15_6' alt="Jesus's Paths">
+# Caminos encontrados Jesús:
+<img src='ChuyE2.png' alt="Jesus's Graph" width="100%">
+<img src='paths15_1.png' alt="Jesus's Paths" width="80%">
+<img src='paths15_2.png' alt="Jesus's Paths" width="80%">
+<img src='paths15_3.png' alt="Jesus's Paths" width="80%">
+<img src='paths15_4.png' alt="Jesus's Paths" width="80%">
+<img src='paths15_5.png' alt="Jesus's Paths" width="80%">
+<img src='paths15_6.png' alt="Jesus's Paths" width="80%">
 
 
-### Caminos encontrados Fer:
-<img src='Weights16.png' alt="Fer's Graph">
-<img src='paths16_1' alt="Fer's Paths">
-<img src='paths16_2' alt="Fer's Paths">
-<img src='paths16_3' alt="Fer's Paths">
-<img src='paths16_4' alt="Fer's Paths">
-<img src='paths16_5' alt="Fer's Paths">
-<img src='paths16_6' alt="Fer's Paths">
+# Caminos encontrados Fer:
+<img src='FerE2.png' alt="Fer's Graph" width="100%">
+<img src='paths16_1.png' alt="Fer's Paths" width="80%">
+<img src='paths16_2.png' alt="Fer's Paths" width="80%">
+<img src='paths16_3.png' alt="Fer's Paths" width="80%">
+<img src='paths16_4.png' alt="Fer's Paths" width="80%">
+<img src='paths16_5.png' alt="Fer's Paths" width="80%">
+<img src='paths16_6.png' alt="Fer's Paths" width="80%">
 
 
-### Caminos encontrados General:
-<img src='Weights0A.png' alt="General Graph">
-<img src='paths0A_1' alt="General's Paths">
-<img src='paths0A_2' alt="General's Paths">
-<img src='paths0A_3' alt="General's Paths">
-<img src='paths0A_4' alt="General's Paths">
-<img src='paths0A_5' alt="General's Paths">
-<img src='paths0A_6' alt="General's Paths">
+# Caminos encontrados General:
+<img src='GenE2.png' alt="General Graph" width="100%">
+<img src='paths0A_1.png' alt="General's Paths" width="80%">
+<img src='paths0A_2.png' alt="General's Paths" width="80%">
+<img src='paths0A_3.png' alt="General's Paths" width="80%">
+<img src='paths0A_4.png' alt="General's Paths" width="80%">
+<img src='paths0A_5.png' alt="General's Paths" width="80%">
+<img src='paths0A_6.png' alt="General's Paths" width="80%">
 
 
 ### Ejemplos de rutas
@@ -149,11 +149,21 @@ Las siguientes rutas se encontraron en la matriz de Fer, usando la carpeta 16 y 
 
 ## Etapa 03 - Análisis de árboles de mínima expansión de los grafos de conectividad
 
+### ¿Qué utilidad ves en el uso de árboles de expansión mínima para representar los grafos de conectividad?
+- El uso de árboles de mínima expansión para representar grafos puede ser muy útil dentro de varios campos. Se pueden ver aplicados desde áreas como redes y enrutamiento (encontrar un árbol de expansión mínima 
+  dentro de las conexiones de una red para enviar paquetes rápidamente) hasta transporte (encontrar las rutas más corta entre dos ubicaciones para optimizar tiempo y recursos). En este caso aplicar un MST para    el grafo de conectividad cerebral puede ser útil para identificar las conexiones mas próximas entre electrodos y como es que se puede simplificar las conexiones.
+  
+### ¿Encuentras diferencias gráficas entre las tareas para cada miembro del equipo?
+- En las tareas de lectura, solamente un MST involucra el electrodo Fz, mientras que en otros casos no hay conexiones entre Pz y Oz, P8 y Oz y P7 Oz. Por su parte, la matriz de memoria es la que más similitudes 
+  presenta entre todos los sujetos, salvo por un par de conexiones como de Pz a C3 en lugar de Pz a Cz, o de Cz a Fz. Lo anterior sucede de la misma forma para el MST de operaciones 
+### ¿Ocurre lo mismo con el gráficos para los datos con 32 canales?
+- Al ser de 32 canales, este es el MST en el que se nota más la reducción de conexiones como resultado de la aplicación del algorimo de Kruskal
 En esta etapa, se realiza la búsqueda de árboles de expansión mínima utilizando los grafos de conectividad no ponderados.
 
 ## Etapa 04 - Cascos convexos de los vértices de los árboles de mínima expansión
 
 En esta etapa, se lleva a cabo la búsqueda de los cascos convexos para los vértices de cada árbol de expansión mínima
+
 
 ## Etapa 05 - Representación del grado de cada arista con diagramas de Voronoi
 
@@ -164,8 +174,26 @@ En esta etapa, se lleva a cabo un análisis de conectividad funcional utilizando
 - Coloreado de Regiones en los Diagramas
 - Dibujo de un Círculo Representando la Cabeza
 
+¿Encuentras informativo los diagramas de Voronoi en este caso?
+Si, aunque realmente el caso de uso puede resultar algo específico, el diagrama de Voronoi nos permite visualizar el funcionamiento de las conexiones neuronales que existen entre las distintas partes del cerebro. Al analizar la actividad o la falta de la misma en cada área podemos obtener datos respecto al estado de esa zona, ya sea que existan algún tipo de daño o se tenga alguna neurodivergencia que afecte a nivel físico.
+¿Los diagramas te ayudan a hacer comparaciones entre tareas y entre sujetos?
+Si, nos permite identificar patrones y variaciones en la conectividad que se tiene entre áreas al realizar ciertas tareas. Un ejemplo muy claro de esto es el aumento de actividad en el lóbulo temporal, una parte ampliamente relacionada con el procesamiento del lenguaje, en la tarea de lectura.
+
 ## Conclusiones individuales
 
 ### Juan Salazar
 
 Como lo vimos a lo largo de estas 5 semanas, creo que es evidente que cualquier cosa puede ser representada como un grafo, si nos ponemos a analizarlo, todas las personas y todo lo que existe en este mundo está cargado de diferentes tipos de información, la cual puede ser estudiada y analizada para obtener grandes resultados o descubrimientos. Los algoritmos que estudiamos nos ayudan a hacer posible el estudio de toda esta información de una manera eficiente tanto en capacidad de memoria como temporal.
+
+<br>
+
+### Diego Luna
+
+A través de los aprendizajes obtenidos en el curso pudimos aplicar ciertos tipos de análisis que nos permiten observar la información desde otro ángulo. Esto es posible gracias a la representación gráfica obtenida en base a la conectividad de los grafos, permitiéndonos aplicar algoritmos como el min spanning tree y el convex-hull, demostrando de una manera mucho más profunda las relaciones que hay entre las áreas del cerebro para el caso de nuestra situación problema. EL uso de diagramas de Voronoi también revela algunos patrones entre los sujetos, enriqueciendo los resultados obtenidos por el resto de los métodos.
+Realmente las estructuras basadas en nodos como los grafos nos ayudan a organizar la información de una manera muy sencilla que es fácilmente procesada por un algoritmo computacional para obtener los resultados esperados de una forma óptima e ideal.
+
+<br>
+
+### Fernando Gómez
+
+Considero que los grafos se encuentran dentro de las estructuras más versátiles y con mayores usos en una gran variedad de campos. Si consigues representar algún sistema que se tenga por medio de un grafo, por consecuencia el análisis de dicho sistema puede volverse mucho más sencillo debido a la facilidad con la que un grafo puede manipularse, y obtener información relevante que quizá no es evidente a primera vista. Toda esta información recabada al final puede ser utilizada para obtener nuevas conclusiones sobre nuestro sistema, o para realizar planes de accion y de optimización hacia el mismo. Y es gracias a los algoritmos vistos a lo largo del semestre que se pueden llegar a estas conclusiones. De ahi la utilidad y la importancia de conocer no solo lo que son los grafos, sino que también saber utilizarlos y manipularnos a nuestro favor.
