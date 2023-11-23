@@ -14,7 +14,7 @@ import math
 script_dir = os.path.dirname(os.path.realpath(__file__))
 
 # Specify the folder containing the text files
-folder_name = 'S14'
+folder_name = 'S16'
 
 
 #------------------------------------------------------------------------------------------------------------------
