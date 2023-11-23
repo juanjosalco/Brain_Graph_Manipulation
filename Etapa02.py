@@ -532,6 +532,25 @@ def Search(Graph):
     print(bfs(Graph, 'PO8', 'Pz'))
     print("Path from C3 to C4:")
     print(bfs(Graph, 'C3', 'C4'))
+    print(bfs(Graph, 'C3', 'C4'))
+    
+    # circle = plt.Circle((0, 0), 1, color='r', alpha=0.25, fill=False)
+    # plt.scatter(points2D[:, 0], points2D[:, 1])
+    # plt.gca().add_patch(circle)
+
+    # for i in range(len(points2D)):
+    #     plt.text(points2D[i, 0] - 0.02, points2D[i, 1] + 0.025, channels[i])
+    
+    # for i in range(len(result["Path"])-1):
+    #     for j in range(len(channels)):
+    #         if(channels[j] == result["Path"][i]):
+    #             for k in range(len(channels)):
+    #                 if(channels[k] == result["Path"][i+1]):
+    #                     plt.plot([points2D[j, 0], points2D[k, 0]], [points2D[j, 1], points2D[k, 1]], 'k-')
+    # plt.title('Camino de C3 a Oz con bfs')
+    # plt.show()
+    
+    
     # DFS Search
     print("\n------------Search with DFS--------")
     print("Path from Fz to PO8:")
@@ -544,6 +563,23 @@ def Search(Graph):
     print(dfs(Graph, 'PO8', 'Pz'))
     print("Path from C3 to C4:")
     print(dfs(Graph, 'C3', 'C4'))
+    
+    # circle = plt.Circle((0, 0), 1, color='r', alpha=0.25, fill=False)
+    # plt.scatter(points2D[:, 0], points2D[:, 1])
+    # plt.gca().add_patch(circle)
+
+    # for i in range(len(points2D)):
+    #     plt.text(points2D[i, 0] - 0.02, points2D[i, 1] + 0.025, channels[i])
+    
+    # for i in range(len(result["Path"])-1):
+    #     for j in range(len(channels)):
+    #         if(channels[j] == result["Path"][i]):
+    #             for k in range(len(channels)):
+    #                 if(channels[k] == result["Path"][i+1]):
+    #                     plt.plot([points2D[j, 0], points2D[k, 0]], [points2D[j, 1], points2D[k, 1]], 'k-')
+    # plt.title('Camino de C3 a Oz con dfs')
+    # plt.show()
+    
     # UCS Search
     print("\n------------Search with UCS--------")
     print("Path from Fz to PO8:")
@@ -559,6 +595,22 @@ def Search(Graph):
     print("\n------------Floyd Marshal--------")
     print("Length of shortest paths")
     print(floyd_marshall(Graph._adjacency_matrix))
+    
+    # circle = plt.Circle((0, 0), 1, color='r', alpha=0.25, fill=False)
+    # plt.scatter(points2D[:, 0], points2D[:, 1])
+    # plt.gca().add_patch(circle)
+
+    # for i in range(len(points2D)):
+    #     plt.text(points2D[i, 0] - 0.02, points2D[i, 1] + 0.025, channels[i])
+    
+    # for i in range(len(result["Path"])-1):
+    #     for j in range(len(channels)):
+    #         if(channels[j] == result["Path"][i]):
+    #             for k in range(len(channels)):
+    #                 if(channels[k] == result["Path"][i+1]):
+    #                     plt.plot([points2D[j, 0], points2D[k, 0]], [points2D[j, 1], points2D[k, 1]], 'k-')
+    # plt.title('Camino de C3 a Oz con ucs')
+    # plt.show()
 
 def Search32(Graph):
     """ 
@@ -582,6 +634,24 @@ def Search32(Graph):
     print(bfs(Graph, 'Fz', 'O2'))
     print("Path from PO3 to F4:")
     print(bfs(Graph, 'PO3', 'F4'))
+    
+    # circle = plt.Circle((0, 0), 1, color='r', alpha=0.25, fill=False)
+    # plt.scatter(points2D[:, 0], points2D[:, 1])
+    # plt.gca().add_patch(circle)
+
+    # for i in range(len(points2D)):
+    #     plt.text(points2D[i, 0] - 0.02, points2D[i, 1] + 0.025, channels[i])
+    
+    # if(result != None):
+    #     for i in range(len(result["Path"])-1):
+    #         for j in range(len(channels)):
+    #             if(channels[j] == result["Path"][i]):
+    #                 for k in range(len(channels)):
+    #                     if(channels[k] == result["Path"][i+1]):
+    #                         plt.plot([points2D[j, 0], points2D[k, 0]], [points2D[j, 1], points2D[k, 1]], 'k-')
+    # plt.title('Camino de F7 a PO4 con bfs')
+    # plt.show()
+    
     # DFS Search
     print("\n------------Search with DFS--------")
     print("Path from F7 to PO4:")
@@ -598,6 +668,24 @@ def Search32(Graph):
     print(dfs(Graph, 'Fz', 'O2'))
     print("Path from PO3 to F4:")
     print(dfs(Graph, 'PO3', 'F4'))
+    
+    # circle = plt.Circle((0, 0), 1, color='r', alpha=0.25, fill=False)
+    # plt.scatter(points2D[:, 0], points2D[:, 1])
+    # plt.gca().add_patch(circle)
+
+    # for i in range(len(points2D)):
+    #     plt.text(points2D[i, 0] - 0.02, points2D[i, 1] + 0.025, channels[i])
+    
+    # if(result != None):
+    #     for i in range(len(result["Path"])-1):
+    #         for j in range(len(channels)):
+    #             if(channels[j] == result["Path"][i]):
+    #                 for k in range(len(channels)):
+    #                     if(channels[k] == result["Path"][i+1]):
+    #                         plt.plot([points2D[j, 0], points2D[k, 0]], [points2D[j, 1], points2D[k, 1]], 'k-')
+    # plt.title('Camino de F7 a PO4 con dfs')
+    # plt.show()
+    
     # UCS Search
     print("\n------------Search with UCS--------")
     print("Path from F7 to PO4:")
@@ -617,6 +705,23 @@ def Search32(Graph):
     print("\n------------Floyd Marshal--------")
     print("Length of shortest paths")
     print(floyd_marshall(Graph._adjacency_matrix))
+    
+    # circle = plt.Circle((0, 0), 1, color='r', alpha=0.25, fill=False)
+    # plt.scatter(points2D[:, 0], points2D[:, 1])
+    # plt.gca().add_patch(circle)
+
+    # for i in range(len(points2D)):
+    #     plt.text(points2D[i, 0] - 0.02, points2D[i, 1] + 0.025, channels[i])
+    
+    # if(result != None):
+    #     for i in range(len(result["Path"])-1):
+    #         for j in range(len(channels)):
+    #             if(channels[j] == result["Path"][i]):
+    #                 for k in range(len(channels)):
+    #                     if(channels[k] == result["Path"][i+1]):
+    #                         plt.plot([points2D[j, 0], points2D[k, 0]], [points2D[j, 1], points2D[k, 1]], 'k-')
+    # plt.title('Camino de F7 a PO4 con ucs')
+    # plt.show()
     
     
 ## --------------- Matriz de Conectividad Chica ------------------- ###
