@@ -87,7 +87,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 <img src='paths13_6.png' alt="Juan's Paths" width="80%">
 
 
-# Caminos encontrados Diego:
+### Caminos encontrados Diego:
 <img src='DiegoE2.png' alt="Diego's Graph" width="100%">
 <img src='paths14_1.png' alt="Diego's Paths" width="80%">
 <img src='paths14_2.png' alt="Diego's Paths" width="80%">
@@ -97,7 +97,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 <img src='paths14_6.png' alt="Diego's Paths" width="80%">
 
 
-# Caminos encontrados Jesús:
+### Caminos encontrados Jesús:
 <img src='ChuyE2.png' alt="Jesus's Graph" width="100%">
 <img src='paths15_1.png' alt="Jesus's Paths" width="80%">
 <img src='paths15_2.png' alt="Jesus's Paths" width="80%">
@@ -107,7 +107,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 <img src='paths15_6.png' alt="Jesus's Paths" width="80%">
 
 
-# Caminos encontrados Fer:
+### Caminos encontrados Fer:
 <img src='FerE2.png' alt="Fer's Graph" width="100%">
 <img src='paths16_1.png' alt="Fer's Paths" width="80%">
 <img src='paths16_2.png' alt="Fer's Paths" width="80%">
@@ -117,7 +117,7 @@ La etapa implica la transformación de grafos, la búsqueda de caminos utilizand
 <img src='paths16_6.png' alt="Fer's Paths" width="80%">
 
 
-# Caminos encontrados General:
+### Caminos encontrados General:
 <img src='GenE2.png' alt="General Graph" width="100%">
 <img src='paths0A_1.png' alt="General's Paths" width="80%">
 <img src='paths0A_2.png' alt="General's Paths" width="80%">
@@ -147,6 +147,26 @@ Las siguientes rutas se encontraron en la matriz de Fer, usando la carpeta 16 y 
 
 ## Etapa 03 - Análisis de árboles de mínima expansión de los grafos de conectividad
 
+### Árboles de mínima expansión - Juan
+
+<img src='MSP13.png'>
+
+### Árboles de mínima expansión - Diego
+
+<img src='MSP14.png'>
+
+### Árboles de mínima expansión - Jesús
+
+<img src='MSP15.png'>
+
+### Árboles de mínima expansión - Fer
+
+<img src='MSP16.png'>
+
+### Árboles de mínima expansión - General
+
+<img src='MSPGEN.png'>
+
 ### ¿Qué utilidad ves en el uso de árboles de expansión mínima para representar los grafos de conectividad?
 - El uso de árboles de mínima expansión para representar grafos puede ser muy útil dentro de varios campos. Se pueden ver aplicados desde áreas como redes y enrutamiento (encontrar un árbol de expansión mínima 
   dentro de las conexiones de una red para enviar paquetes rápidamente) hasta transporte (encontrar las rutas más corta entre dos ubicaciones para optimizar tiempo y recursos). En este caso aplicar un MST para    el grafo de conectividad cerebral puede ser útil para identificar las conexiones mas próximas entre electrodos y como es que se puede simplificar las conexiones.
@@ -160,6 +180,26 @@ En esta etapa, se realiza la búsqueda de árboles de expansión mínima utiliza
 
 ## Etapa 04 - Cascos convexos de los vértices de los árboles de mínima expansión
 
+### Cascos Convexos - Juan
+
+<img src='CH13.png'>
+
+### Cascos Convexos - Diego
+
+<img src='CH14.png'>
+
+### Cascos Convexos - Jesús
+
+<img src='CH15.png'>
+
+### Cascos Convexos - Fer
+
+<img src='CH16.png'>
+
+### Cascos Convexos - General
+
+<img src='CHGEN.png'>
+
 En esta etapa, se lleva a cabo la búsqueda de los cascos convexos para los vértices de cada árbol de expansión mínima
 
 ### ¿Qué utilidad vez en el uso de cascos convexos para representar los grafos de conectividad?
@@ -170,6 +210,26 @@ En esta etapa, se lleva a cabo la búsqueda de los cascos convexos para los vér
 - Sí. No se usan todos los electrodos en todas las tareas, dando como resultado cascos convexos distintos.
 
 ## Etapa 05 - Representación del grado de cada arista con diagramas de Voronoi
+
+### Diagramas de Voronoi - Juan
+
+<img src='VN13.png'>
+
+### Cascos Convexos - Diego
+
+<img src='VN14.png'>
+
+### Cascos Convexos - Jesús
+
+<img src='VN15.png'>
+
+### Cascos Convexos - Fer
+
+<img src='VN16.png'>
+
+### Cascos Convexos - General
+
+<img src='VNGEN.png'>
 
 En esta etapa, se lleva a cabo un análisis de conectividad funcional utilizando diagramas de Voronoi.
 
