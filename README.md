@@ -138,14 +138,12 @@ Las siguientes rutas se encontraron en la matriz de Fer, usando la carpeta 16 y 
 <img src='path_example_5.png' alt='Example path'>
 
 
-
-### Preguntas
-- ¿Qué diferencias observas entre los resultados obtenidos por los diferentes métodos de búsqueda?
-  Hay muchas búsquedas que no tienen rutas, pero en las que se encuentran la diferencia está en el peso de la ruta. La búsqueda de costo uniforme siempre da el resultado con la ruta más corta y los demás pueden dar esa misma solución, pero no siempre lo hacen.
-- ¿Qué utilidad encuentras a los resultados obtenidos por el método de Floyd? ¿Qué información consideras que le falta mostrar?
-  Podemos saber cuáles son los pares de electrodos que se encuentran conectados. Le faltaría mostrar la longitud total del camino e información extra sobre los nodos como qué electrodos son y alguna descripción de cómo ayudan en el cuerpo. 
-- ¿Por qué crees que es importante saber si hay rutas entre pares de electrodos?
-  Para saber cuáles son los electrodos que se conectan y poder hacer el análisis correcto de los resultados. Si 2 electrodos están conectados a la hora de hacer una actividad, entonces esos 2 se usan o se comunican para realizarla.
+### ¿Qué diferencias observas entre los resultados obtenidos por los diferentes métodos de búsqueda?
+- Hay muchas búsquedas que no tienen rutas, pero en las que se encuentran la diferencia está en el peso de la ruta. La búsqueda de costo uniforme siempre da el resultado con la ruta más corta y los demás pueden dar esa misma solución, pero no siempre lo hacen.
+### ¿Qué utilidad encuentras a los resultados obtenidos por el método de Floyd? ¿Qué información consideras que le falta mostrar?
+- Podemos saber cuáles son los pares de electrodos que se encuentran conectados. Le faltaría mostrar la longitud total del camino e información extra sobre los nodos como qué electrodos son y alguna descripción de cómo ayudan en el cuerpo. 
+### ¿Por qué crees que es importante saber si hay rutas entre pares de electrodos?
+- Para saber cuáles son los electrodos que se conectan y poder hacer el análisis correcto de los resultados. Si 2 electrodos están conectados a la hora de hacer una actividad, entonces esos 2 se usan o se comunican para realizarla.
 
 ## Etapa 03 - Análisis de árboles de mínima expansión de los grafos de conectividad
 
@@ -164,6 +162,12 @@ En esta etapa, se realiza la búsqueda de árboles de expansión mínima utiliza
 
 En esta etapa, se lleva a cabo la búsqueda de los cascos convexos para los vértices de cada árbol de expansión mínima
 
+### ¿Qué utilidad vez en el uso de cascos convexos para representar los grafos de conectividad?
+- Observando el casco convexo podemos englobar y ver de manera visual fácilmente todos los nodos que forman parte de la conectividad. En este caso, podemos ver todos los electrodos que forman parte de cierta tarea.
+### ¿Encuentras diferencias gráficas entre las tareas para cada miembro del equipo?
+- Sí. No todos los integrantes usan los mismo electrodos para hacer las tareas por lo que algunos cascos convexos engloban muchos menos puntos que otros.
+### ¿Ocurre lo mismo con el gráficos para los datos con 32 canales?
+- Sí. No se usan todos los electrodos en todas las tareas, dando como resultado cascos convexos distintos.
 
 ## Etapa 05 - Representación del grado de cada arista con diagramas de Voronoi
 
@@ -178,6 +182,10 @@ En esta etapa, se lleva a cabo un análisis de conectividad funcional utilizando
 Si, aunque realmente el caso de uso puede resultar algo específico, el diagrama de Voronoi nos permite visualizar el funcionamiento de las conexiones neuronales que existen entre las distintas partes del cerebro. Al analizar la actividad o la falta de la misma en cada área podemos obtener datos respecto al estado de esa zona, ya sea que existan algún tipo de daño o se tenga alguna neurodivergencia que afecte a nivel físico.
 ¿Los diagramas te ayudan a hacer comparaciones entre tareas y entre sujetos?
 Si, nos permite identificar patrones y variaciones en la conectividad que se tiene entre áreas al realizar ciertas tareas. Un ejemplo muy claro de esto es el aumento de actividad en el lóbulo temporal, una parte ampliamente relacionada con el procesamiento del lenguaje, en la tarea de lectura.
+
+## Conclusión
+
+Hemos analizado los resultados de un experimento en el que cada integrante realizo diversas tareas conectados a un dispositivo que mida la actividad eléctrica cerebral. Los resultados en forma de matriz se utilizaron para crear un grafo en el que se pueden apreciar las conexiones entre los electrodos para cada integrante y como la tarea es resuelta de distintas maneras. En nuestro análisis usamos diversos algoritmos con estos grafos como son búsqueda de caminos, cascos convexos y diagramas de voronoi. Con estos últimos, se puede apreciar fácilmente la diferencia entre los integrantes del equipo y entre las tareas realizadas. Este es solo un ejemplo de muchos en los cuales los algoritmos forman parte fundamental en la solución de un problema, optimización o en el análisis de resultados; por lo que es sumamente importante tener un conocimiento de ellos. 
 
 ## Conclusiones individuales
 
@@ -197,3 +205,9 @@ Realmente las estructuras basadas en nodos como los grafos nos ayudan a organiza
 ### Fernando Gómez
 
 Considero que los grafos se encuentran dentro de las estructuras más versátiles y con mayores usos en una gran variedad de campos. Si consigues representar algún sistema que se tenga por medio de un grafo, por consecuencia el análisis de dicho sistema puede volverse mucho más sencillo debido a la facilidad con la que un grafo puede manipularse, y obtener información relevante que quizá no es evidente a primera vista. Toda esta información recabada al final puede ser utilizada para obtener nuevas conclusiones sobre nuestro sistema, o para realizar planes de accion y de optimización hacia el mismo. Y es gracias a los algoritmos vistos a lo largo del semestre que se pueden llegar a estas conclusiones. De ahi la utilidad y la importancia de conocer no solo lo que son los grafos, sino que también saber utilizarlos y manipularnos a nuestro favor.
+
+<br>
+
+### Jesús Díaz
+
+En esta evidencia final utilizamos muchas de las cosas que aprendimos en este curso relacionadas a grafos y podemos ver un claro ejemplo en el que los algoritmos forman parte fundamental de algunas investigaciones y de muchos trabajos. Representar algún trabajo como el hecho aquí sería por ejemplo muy difícil sin alguna estructura de datos como un grafo que es muy versátil y útil. A su vez, los algoritmos relacionados como pueden ser los distintos tipos de búsqueda o el armado de figuras como cascos convexos son muy útiles para analizar la información. Finalmente, sería muy dificil procesar todos los datos que se obtienen de un experimento parecido sin el poder computacional debido a la cantidad de datos que se manejan; sin embargo, también es muy importante saber cómo utilizar los recursos computacionales para realizar un análisis más eficiente, en el menor tiempo posible y encontrando siempre lo que más nos ayudará. Para esto se necesita un conocimiento de algoritmos que es básico en el mundo de la computación.
